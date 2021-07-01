@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+.bottom{
+    width: 100%;
+    height: 34vh;
+    background: #06053A;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.bottom .text{
+    position: absolute;
+    width: max-content;
+    left: 0;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);  
+}
+.bottom .line{
+    position: absolute;
+    width: 16.7vw;
+    border-bottom: 1px solid #F3CC01;
+    left: 9.3%;
+    height: 0.3vw;
+}
+.bottom .scosh{
+    position: absolute;
+    left: 23.2%;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.bottom .vertical{
+    position: absolute;
+    width: 86px;
+    height: 0px;
+    left: 30%;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.bottom .point {
+    position: absolute;
+    left: 35.3%;
+}
+.fa-map-marker-alt{
+    color: white;
+}
+.svnit{
+    position: absolute;
+    left: 39%;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-size: 1.3vw;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.contacticon{
+    position: absolute;
+    right: 2%;
+    list-style: none;
+}
+.contacticon ul{
+    display: flex;
+}
+.contacticon ul li{
+    position:relative;
+    list-style:none;
+    margin:0 0.8vw;
+    cursor:pointer;
+}
+.contacticon ul li a{
+    text-decoration:none;
+}
+.contacticon ul li a img{
+    width: 3.7vw;
+}
+
+
+@media (max-width:876px){
+    .bottom{
+        height: 23vw;
+    }
+    .bottom .text {
+        font-size: 2vw;
+    }
+    .bottom .scosh{
+        font-size: 4vw;
+    }
+    .bottom .vertical{
+        width: 8vw;
+        left: 34vw;
+        border-top: 0.2vw solid #FFFFFF;
+    }
+    .bottom .point {
+        left: 40.3%;
+    }    
+    .bottom .point svg{
+        width: 17px;
+    }
+    .svnit {
+        left: 44%;
+        width: 22vw;
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+    }
+    
+} 
+@media (max-width:439px){
+    .short{
+        left: 50%;
+        width: 0.8rem;
+        font-size: 3vw;
+        line-height: 2.2vw;
+        color:#ffffff;
+        font-family: 'Exo 2', sans-serif;
+    }
+    .svnit{
+        display: none;
+    }
+.contacticon ul li a img{
+        width: 5.7vw;
+    }
+}
+@media (max-width:237px){
+    .short{
+        left: 50%;
+        width: 0rem;
+        font-size: 3vw;
+        line-height: 2.2vw;
+        color:#ffffff;
+    }
+    .svnit{
+        display: none;
+    }
+}

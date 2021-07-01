@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+    html{
+    scroll-behavior:smooth;
+}
+    body{
+    background: #F1ECE6;
+    overflow-x: hidden;   
+}
+/* body.active{
+    overflow: hidden; 
+} */
+.threeline{
+    display: none;
+    display: flex;
+    clip-path: circle(0% at 95% 6vw);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    transition: 1s;
+    height: 100vh;
+    background: #06053a;
+}
+.threeline.active{
+    clip-path: circle(150% at 95% 6vw);
+    transition: 1s;
+}
+
+.threeline ul{
+    font-size: 6vw;
+    color: #fff;
+    list-style: none;
+    margin-left: 7vw;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.threeline ul li{
+    margin: 1vw 0;
+}
+.mag .blo .eve .work{
+    color:#FFFFFF;
+}
+
+.mag:hover {
+    color: #008dd5;
+}
+
+.blo:hover{
+    color: #b80c09;
+}
+.eve:hover{
+    color:#ef798a;
+}
+.work:hover{
+    color: #f6ae2d;
+}
+.main{
+    display: flow-root;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(main.jpg);
+    background-size: cover;
+    height: 55vw;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 13%;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    height: 100%;;
+}
+
+.right{
+    display: inline-flex;
+    align-items: stretch;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.right a{
+    height: max-content;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 1.4vw;
+    text-decoration: none;
+    font-size: 1.95vw;
+}
+.toggle{
+    position: absolute;
+    cursor: pointer;
+    background: url(button.png);
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2.6vw;
+    height: 3.5vw;
+}
+.activeToggle{
+    position:fixed ;
+    cursor: pointer;
+    background: url(close.png);
+    z-index: 1000;
+    background-size: contain;
+    width: 2.6vw;
+    height: 3.5vw;
+    background-repeat: no-repeat;
+}
+.main .heading{
+    width: 40vw;
+    margin-right: 3vw;
+    float: right;
+    margin-top: 6vw;
+}
+.heading h2{
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.4vw;
+    color: #F4CD02;
+}
+.heading p{
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 2.2vw;
+    color: #FFFFFF;
+}
+.page{
+    margin: 16vw 7vw 12vw 7vw;
+}
+.center{
+    width: 27.6vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text1, .text2, .text3, .text4{
+    margin-top: 6vw;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+.text1 h5, .text2 h5, .text3 h5, .text4 h5{
+    text-align: center;
+    font-size: 7vw;
+}
+.text1 p, .text2 p, .text3 p, .text4 p{
+    margin-top: 4vw;
+    font-size: 3.5vw;
+}
+hr{
+    border-top: 3px solid black;
+}
+
